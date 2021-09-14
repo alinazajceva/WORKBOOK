@@ -5,6 +5,7 @@
     }
     h1{
         font-size: 28px;
+        text-align: center;
     }
     .inputs-block{
         flex-direction: column;
