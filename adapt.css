@@ -1,0 +1,34 @@
+@media (max-width: 630px) {
+    body{
+        padding-top: 15%;
+        padding-left: 10%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .inputs-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-wrapper{
+        padding-top: 15px;
+    }
+    .input-item{
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 321px) {
+    body{
+        padding-top: 15%;
+        padding-left: 10%;
+    }
+    .btn-wrapper{
+        margin-left: -25px;
+    }
+    h1{
+        text-align: center;
+        font-size: 24px;
+    }
+}
