@@ -1,7 +1,7 @@
 @media (max-width: 630px) {
     body{
         padding-top: 15%;
-        padding-left: 10%;
+        padding-left: 5%;
     }
     h1{
         font-size: 28px;
@@ -23,7 +23,7 @@
 @media (max-width: 321px) {
     body{
         padding-top: 15%;
-        padding-left: 10%;
+        padding-left: 5%;
     }
     .btn-wrapper{
         margin-left: -25px;
