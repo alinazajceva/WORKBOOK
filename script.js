@@ -57,7 +57,11 @@ function CreateWord(english, russian){
 }
 
 const deleteWord = e => {
-    
+    const rowIndex = e.target.parentNode.parentNode.rowIndex;
+    e.target.parentNode.parentNode.parentNode.remove();
+    words.splice(rowIndex, 1);
+    localStorage.removeItem('words');
+    localStorage.setItem('words', JSON.stringify(words));
 };
 
 const addEventDelete = () => {
