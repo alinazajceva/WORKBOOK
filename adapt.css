@@ -33,3 +33,10 @@
         font-size: 24px;
     }
 }
+
+@media (max-width: 375px) {
+    body{
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+}
