@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #1E212D;
     padding-top: 115px;
     padding-left: 132px;
 }
@@ -9,13 +9,16 @@ h1 {
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
-    color: #000000;
+    color: #FAF3E0;
     margin: 0;
     margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .inputs-block {
     display: flex;
+    justify-content: center;
     align-items: flex-end;
     margin-bottom: 60px;
 }
@@ -30,7 +33,7 @@ h1 {
     font-family: Montserrat;
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+    color: #EABF9F;
 }
 
 input {
@@ -81,7 +84,7 @@ h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+    color: #BBBFCA;
 }
 
 table {
@@ -93,11 +96,11 @@ table {
 }
 
 .btn-delete {
-    background-image: url('img/btn_delete.svg');
+    background-image: url('img/delete.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 12px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border: none;
 }
@@ -109,7 +112,7 @@ table {
     font-size: 20px;
     line-height: 43px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #E8E8E8;
     flex: none;
     order: 0;
     align-self: center;
@@ -123,7 +126,7 @@ table {
     font-size: 20px;
     line-height: 43px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #F4F4F2;
     flex: none;
     order: 1;
     align-self: center;
