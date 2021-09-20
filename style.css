@@ -1,7 +1,7 @@
 body {
     background-color: #1E212D;
-    padding-top: 115px;
-    padding-left: 132px;
+    padding-top: 5%;
+    padding-left: 2%;
 }
 
 h1 {
@@ -11,18 +11,18 @@ h1 {
     line-height: 46px;
     color: #FAF3E0;
     margin: 0;
-    margin-bottom: 70px;
+    margin-bottom: 3%;
     display: flex;
     justify-content: center;
     letter-spacing: .1em;
     text-shadow: 
       0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424, 
+      0 1px 0 #393232, 
+      0 2px 0 #393232, 
+      0 3px 0 #393232, 
+      0 4px 0 #393232, 
+      0 5px 0 #B68973, 
+      0 6px 0 #B68973, 
       0 7px 0 #222, 
       0 8px 0 #202020, 
       0 9px 0 #1e1e1e, 
@@ -35,11 +35,54 @@ h1 {
       0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
+
+h3{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(250, 243, 224, 0.5);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%; 
+}
+
+.input-name-of-subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.input-subject {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0,0,0,0.7);
+    padding-left: 18px;
+    max-width: 230px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .inputs-block {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 60px;
+    margin-bottom: 2%;
+}
+
+.inputs-block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 7%;
 }
 
 .input-item {
@@ -48,11 +91,11 @@ h1 {
 }
 
 .input-item-title {
-    margin-bottom: 30px;
+    margin-bottom: 7%;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
-    color: #EABF9F;
+    color: rgba(234,191,159, 0.5);
 }
 
 input {
@@ -70,7 +113,7 @@ input {
 }
 
 .input.error {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 #add-word-btn {
@@ -92,27 +135,68 @@ input {
 }
 
 #add-word-btn:hover {
-    background: rgba(255, 255, 255, 0.447);
+    background: #B68973;
+    color: #FAF3E0;
+    
+}
+
+#add-word-btn-whole {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 129px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+#add-word-btn-whole:hover {
+    background: #B68973;
+    color: #FAF3E0;
+    
+}
+
+.input-item-whole {
+
+    margin-right: 20px;
+    max-width: 485px;
+}
+
+#whole-text {
+    width: 480px;
+    height: 118px;
+    resize: none;
 }
 
 h2 {
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 22px;
-    color: #BBBFCA;
+    color: #AA8976;
 }
 
+
 table {
-    width: 300px;
+    width: 500px;
+    margin-left: 5%;
 }
   
 .tr {
     position: relative;
 }
+
 
 .btn-delete {
     background-image: url('img/delete.png');
@@ -151,3 +235,4 @@ table {
     align-self: center;
     margin: 40px 0px;
 }
+

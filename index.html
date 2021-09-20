@@ -6,31 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adapt.css">
-    <link rel="shortcut icon" href="img/favicon2.png">
-    <title>English vocabulary</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>WorkBook</title>
 </head>
 <body>
-    <h1>ENGLISH - RUSSIAN VOCABULARY</h1>
-
+    <h1>ONLINE WORKBOOK FOR NOTES</h1>
+    <h3>Введите название предмета</h3>
+    <div class="input-name-of-subject">
+        <input type="text" id="subject-name" class="input-subject">
+    </div>
     <div class="inputs-block">
         <div class="input-item">
             <div class="input-item-title">
-                слово
+                Термин:
             </div>
             <input type="text" id="eng" class="input">
         </div>
         <div class="input-item">
             <div class="input-item-title">
-                перевод
+                Определение:
             </div>
             <input type="text" id="rus" class="input">
         </div>
         <div class="btn-wrapper">
-            <button id="add-word-btn">Добавить слово</button>
+            <button id="add-word-btn">Добавить термин</button>
+        </div>
+    </div>
+    <div class="inputs-block-2">
+        <div class="input-item-whole">
+            <textarea type="text" id="whole-text" class="input"></textarea>
+        </div>
+        <div class="btn-wrapper">
+            <button id="add-word-btn-whole">Добавить фрагмент</button>
         </div>
     </div>
 
-    <h2>Сохраненные слова:</h2>
+    <h2>Конспект по </h2>
     <div class="table-block">
         <table id="table">
 

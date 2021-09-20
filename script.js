@@ -15,6 +15,9 @@ const addWordToTable = index => {
             <td class='eng-word'>
                 ${words[index].english}
             </td>
+            <td class='eng-word'>
+                -
+            </td>
             <td class='rus-word'>
                 ${words[index].russian}
             </td>

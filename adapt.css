@@ -1,13 +1,93 @@
-@media (max-width: 630px) {
+@media (max-width: 751px) {
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 712px) {
+    h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 682px) {
     body{
-        padding-top: 15%;
-        padding-left: 5%;
+        padding-top: 5%;
+        padding-left: 0;
     }
     h1{
         font-size: 28px;
         text-align: center;
     }
+    h2{
+        padding-left: 13.5%;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .input-name-of-subject {
+        padding-bottom: 20px;
+    }
+    .input-subject {
+       width: 200px;
+    }
+    .input {
+        width: 270px;
+    }
     .inputs-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs-block-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-wrapper{
+        padding-bottom: 50px;
+    }
+    .input-item{
+        padding-bottom: 15px;
+    }
+    .input-item-whole {
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    #add-word-btn {
+        font-size: 14px;
+    }
+    #add-word-btn-whole {
+        height: 56px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 674px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 630px) {
+    body{
+        padding-top: 5%;
+        padding-left: 0;
+    }
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    h2{
+        padding-left: 8%;
+    }
+    .inputs-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs-block-2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -20,23 +100,70 @@
     }
 }
 
-@media (max-width: 321px) {
-    body{
-        padding-top: 15%;
-        
-    }
-    .btn-wrapper{
-        margin-left: -25px;
-    }
-    h1{
-        text-align: center;
+@media (max-width: 572px) {
+    h1 {
         font-size: 24px;
+    }
+    .input-item{
+        padding-bottom: 15px;
+    }
+    .input-item-whole {
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 18px;
     }
 }
 
-@media (max-width: 375px) {
-    body{
-        padding-top: 15%;
-        padding-left: 5%;
+@media (max-width: 516px) {
+    #whole-text {
+        width: 85vw;
     }
 }
+
+@media (max-width: 488px) {
+    h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 440px) {
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    body{
+        padding-top: 5%;
+    }
+    h1{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 321px) {
+    body{
+        padding-top: 5%;
+        
+    }
+    h1{
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    #add-word-btn {
+        height: 36px;
+        width: 140px;
+    }
+    #add-word-btn-whole {
+        height: 36px;
+        width: 140px;
+    }
+}
+
