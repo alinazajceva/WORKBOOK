@@ -35,6 +35,9 @@ h1 {
       0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
+#str {
+    text-transform: uppercase;
+}
 
 h3{
     font-family: Montserrat;
@@ -75,13 +78,6 @@ h3{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 2%;
-}
-
-.inputs-block-2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     margin-bottom: 7%;
 }
 
@@ -110,6 +106,20 @@ input {
     color: rgba(0,0,0,0.7);
     padding-left: 18px;
     width: 100%;
+}
+
+#submit {
+    display: inline;
+    width: 4%;
+    height: 36px;
+    justify-content: center;
+    margin-left: 1%;
+    cursor: pointer;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 26px;
+    padding: 0;
+    text-align: center;
 }
 
 .textarea {
@@ -194,10 +204,11 @@ h2 {
     margin-bottom: 20px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 19px;
     line-height: 22px;
-    color: #AA8976;
+    color: #a19e93;
+    text-transform: uppercase;
 }
 
 

@@ -14,45 +14,34 @@
     <h3>Введите название предмета</h3>
     <div class="input-name-of-subject">
         <input type="text" id="subject-name" class="input-subject">
+        <input type="button" id="submit" value="+">
     </div>
     <div class="inputs-block">
         <div class="input-item">
             <div class="input-item-title">
                 Термин:
             </div>
-            <input type="text" id="eng" class="input">
+            <input type="text" id="eng" class="input" >
         </div>
         <div class="input-item">
             <div class="input-item-title">
                 Определение:
             </div>
-            <input type="text" id="rus" class="input">
+            <input type="text" id="rus" class="input" >
         </div>
         <div class="btn-wrapper">
             <button id="add-word-btn">Добавить термин</button>
         </div>
     </div>
-    <div class="inputs-block-2">
     
-        <div class="input-item-whole">
-            <textarea type="text" id="whole-text" class="textarea"></textarea>
-        </div>
-        <div class="btn-wrapper">
-            <button id="add-word-btn-whole">Добавить фрагмент</button>
-        </div>
-    </div>
 
-    <h2>Конспект по </h2>
+    <h2>Конспект по <span id="str"></span></h2>
     <div class="table-block">
         <table id="table">
 
         </table>
     </div>
-    <div class="fragment-block">
-        <table id="fragment">
-
-        </table>
-    </div>
+    
 
     <script src="script.js"></script>
 </body>
