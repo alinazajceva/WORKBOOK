@@ -112,6 +112,20 @@ input {
     width: 100%;
 }
 
+.textarea {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    height: 56px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0,0,0,0.7);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
 .input.error {
     border: 2px solid red;
 }
@@ -165,15 +179,14 @@ input {
 }
 
 .input-item-whole {
-
     margin-right: 20px;
     max-width: 485px;
 }
 
 #whole-text {
-    width: 480px;
-    height: 118px;
-    resize: none;
+    width: 465px;
+    height: 114px;
+    resize: vertical;
 }
 
 h2 {
@@ -236,3 +249,16 @@ table {
     margin: 40px 0px;
 }
 
+.fragment-of-notebook {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 43px;
+        letter-spacing: 0.03em;
+        color: #E8E8E8;
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 40px 0px;
+}

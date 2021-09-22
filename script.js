@@ -2,12 +2,18 @@ const engWord = document.getElementById('eng'),
       rusWord = document.getElementById('rus'),
       inputs = document.getElementsByClassName('input'),
       addButton = document.getElementById('add-word-btn'),
-      table = document.getElementById('table');
+      table = document.getElementById('table'),
+
+      textArea = document.getElementsByClassName('textarea'),
+      addButton2 = document.getElementById('add-word-btn-whole'),
+      fragment = document.getElementById('fragment');
 
 let words;
 let btnsDelete;
+let words2;
 
 localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('words'));
+localStorage.length < words ? words2 = [] : words2 = JSON.parse(localStorage.getItem('words2'));
 
 const addWordToTable = index => {
     table.innerHTML += `
@@ -79,3 +85,45 @@ const addEventDelete = () => {
 };
 
 addEventDelete();
+
+
+const addFragmentToTable = index => {
+    fragment.innerHTML +=`
+    <tr class="tr">
+    <td class='fragment-of-notebook'>
+        ${words2[index].newFragment}
+    </td>
+    
+    <td>
+        <button class="btn-delete"></button>
+    </td>
+</tr>
+    `;
+};
+
+words2.forEach((element, i) => {
+    addFragmentToTable(i);
+});
+
+addButton2.addEventListener('click', () => {
+    if( 
+        textArea.value.lenth < 1 || 
+        !isNaN(textArea.value)
+    ){
+        for(let key of textArea) {
+            key.classList.add('error');
+        } 
+    } else {    
+        for(let key of textArea) {
+            key.classList.remove('error');
+        }
+        words2.push(new CreateFragment(textArea.value));
+        localStorage.setItem('words2', JSON.stringify(words2));
+        addFragmentToTable(words2.length - 1);
+        textArea.value = null;
+    }
+});
+
+function CreateFragment(newFragment) {
+    this.newFragment = newFragment;
+}
