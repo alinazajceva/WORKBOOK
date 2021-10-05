@@ -1,0 +1,14 @@
+h1{
+    display: none;
+}
+
+.inputs-block{
+    display: none;
+}
+
+table{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+

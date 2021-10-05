@@ -165,5 +165,12 @@
         height: 36px;
         width: 140px;
     }
+    .eng-word{
+        font-size: 16px;
+    }
+    .rus-word{
+        font-size: 16px;
+    }
+    
 }
 

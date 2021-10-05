@@ -2,21 +2,15 @@ const engWord = document.getElementById('eng'),
       rusWord = document.getElementById('rus'),
       inputs = document.getElementsByClassName('input'),
       addButton = document.getElementById('add-word-btn'),
-      table = document.getElementById('table'),
-      nameOfSubject = document.getElementById('subject-name'),
-      buttSubjectName = document.getElementById('submit');
+      table = document.getElementById('table');
 
-
-buttSubjectName.onclick = function() {
-    let subjectNameValue = nameOfSubject.value;
-    document.getElementById('str').innerHTML= subjectNameValue;
-};
 
 let words;
 let btnsDelete;
 
 
 localStorage.length < 1 ? words = [] : words = JSON.parse(localStorage.getItem('words'));
+
 
 const addWordToTable = index => {
     table.innerHTML += `
@@ -88,5 +82,6 @@ const addEventDelete = () => {
 };
 
 addEventDelete();
+
 
 
