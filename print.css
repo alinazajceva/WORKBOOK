@@ -1,8 +1,12 @@
-h1{
+a{
     display: none;
 }
 
 .inputs-block{
+    display: none;
+}
+
+h2{
     display: none;
 }
 

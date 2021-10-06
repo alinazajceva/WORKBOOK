@@ -1,25 +1,3 @@
-let pfHeaderImgUrl = '';
-let pfHeaderTagline = '';
-let pfdisableClickToDel = 1;
-let pfHideImages = 0;
-let pfImageDisplayStyle = 'left';
-let pfDisablePDF = 0;
-let pfDisableEmail = 0;
-let pfDisablePrint = 0;
-let pfCustomCSS = '';
-let pfEncodeImages = 0;
-let pfShowHiddenContent = 0;
-let pfBtVersion='2';
-
-(function(){
-    let js, 
-        pf;
-    pf=document.createElement('script');
-    pf.type='text/javascript';
-    pf.src='//cdn.printfriendly.com/printfriendly.js';
-    document.getElementsByTagName('head')[0].appendChild(pf);
-})();
-
 const engWord = document.getElementById('eng'),
       rusWord = document.getElementById('rus'),
       inputs = document.getElementsByClassName('input'),
